@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+</head>
+
+<body>
+
+
+    <div class="container w-75 d-flex align-items-center justify-content-center ">
+        <div class="row">
+            <div class="col-md-12 form m-auto d-grid rounded-4 ">
+                <div class="formcontainer m-auto w-100 p-3 text-white text-center">
+                    <h2 class="pt-3 pb-4">Signup</h2>
+                    <form class=" d-flex flex-column">
+                        <input type="text" id="name" class="form-control my-2" placeholder="name" name="name">
+                        <input type="email" id="email" class="form-control my-2" placeholder="Email" name="email">
+                        <input type="password" id="Password" class="form-control my-2" placeholder="Password"
+                            name="Password">
+                        <p id="alert" class="text-danger d-none">invalid inputs</p>
+                        <p id="exist" class="text-danger d-none">this email is already exists</p>
+                        <button id="signupbtn" class="  btn btn-primary my-2">sign up</button>
+                    </form>
+
+                    <div class="login mt-4">
+                        <p>you have account? <a id="loginlink" href="../index.html">login</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="../js/signup.js">
+        </script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

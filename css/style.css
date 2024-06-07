@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.275) 0%, rgba(0, 0, 0, 0.335) 78%), url('../images/pexels-viacheslav-kan-105198907-10819575.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    height: 100vh;
+}
+
+.form {
+    width: 350px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.411);
+    backdrop-filter: blur(5px);
+    border-right: .5px rgba(255, 255, 255, 0.347) solid;
+    border-bottom: .5px rgba(255, 255, 255, 0.347) solid;
+    border-top: .5px rgba(255, 255, 255, 0.159) solid;
+}
+
+.form-control.invalidinput {
+    border-color: red;
+    box-shadow: 0 0 0 0.2rem rgba(167, 40, 40, 0.487);
+}
+
+#signlink {
+    color: white;
+    text-decoration: none;
+    transition: all 2s;
+}
+
+#signlink:hover {
+    text-decoration: underline;
+}
